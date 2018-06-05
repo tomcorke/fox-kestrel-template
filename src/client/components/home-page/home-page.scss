@@ -1,0 +1,14 @@
+@import '../mixins';
+
+.homePage {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+
+  .content {
+    padding: 10px;
+    display: flex;
+  }
+}
